@@ -99,7 +99,7 @@ right where you are but delete the ***s***elected character
 s
 ```
 
-right where the ***C***ursor is, but delete from the ***C***ursor to the end of this line
+ ***C***lear (delete) everything from the cursor to the end of this line and start writing (enter INSERT mode)
 ```bash
 C
 ```
@@ -135,7 +135,7 @@ ESC
 :w
 ```
 
-### Alternatively, if you don't want to write the document, close it without saving aka - Vim ***q***uits forcefully (!)
+### Alternatively, if you don't want to write the document, close it without saving aka - ***q***uit forcefully (!)
 ```bash
 :q!
 ```
