@@ -14,8 +14,9 @@ vim vimisawesome.yaml
 If the file vimisawesome.yaml does not exist, Vim opens a new file.
 
 ### Send vim to background
+If you viewed some resource in the terminal and need to see the output again, but now you are in vim editing a document, don't leave Vim, just hide it.
+
 Put vim to sleep, ***z***zzz...
-If you viewed some resource in the terminal and need to see the output again, but now you are in vim editing a pod, don't leave Vim, just hide it.
 
 ```bash
 control z

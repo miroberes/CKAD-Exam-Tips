@@ -13,8 +13,9 @@ vim vimisawesome1.yaml
 ```
 
 ### Send vim to background - edit multiple files
-Put the first Vim to sleep, ***z***zzz...
 If you are editing a document in Vim and need to edit another, don't leave Vim, just hide it.
+
+Put the first Vim to sleep, ***z***zzz...
 
 ```bash
 control z
