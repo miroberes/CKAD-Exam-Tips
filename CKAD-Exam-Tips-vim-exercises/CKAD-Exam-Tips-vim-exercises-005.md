@@ -14,7 +14,7 @@ vim vimisawesome1.yaml
 
 ### Send vim to background - edit multiple files
 Put the first Vim to sleep, ***z***zzz...
-If you viewed some resource in the terminal and need to see the output again, but now you are in vim editing a pod, don't leave Vim, just hide it.
+If you are editing a document in Vim and need to edit another, don't leave Vim, just hide it.
 
 ```bash
 control z
