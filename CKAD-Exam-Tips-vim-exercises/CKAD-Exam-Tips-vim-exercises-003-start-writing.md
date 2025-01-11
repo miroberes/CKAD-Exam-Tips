@@ -2,7 +2,7 @@ Vim is great if we invest time to learn to use it. Editing Kubernetes YAML files
 
 ## Getting Started with Vim for CKAD exam
 
-## Vim for CKAD - exercise 3
+## Vim for CKAD - exercise 3 - start writing
 
 ### First things first
 Put your mouse away, forget you have a touchpad and **keep your hands on the keyboard**.
