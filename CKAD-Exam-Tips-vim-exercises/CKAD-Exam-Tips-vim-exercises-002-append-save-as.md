@@ -1,3 +1,7 @@
+---
+title: Vim for CKAD - exercise 2 - append text, save as
+date: 2025-01-11
+---
 Vim is great if we invest time to learn to use it. Editing Kubernetes YAML files in Vim should be as natural as breathing.
 
 ## Getting Started with Vim for CKAD exam

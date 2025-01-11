@@ -1,3 +1,7 @@
+---
+title: Getting Started with kubectl for CKAD exam
+date: 2025-01-11
+---
 ## Getting Started with kubectl for CKAD exam
 
 ## kubectl for CKAD - exercise 1

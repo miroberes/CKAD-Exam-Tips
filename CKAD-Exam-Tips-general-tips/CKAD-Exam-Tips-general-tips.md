@@ -1,3 +1,7 @@
+---
+title: General tips for passing the CKAD exam
+date: 2025-01-11
+---
 ## General tips for passing the CKAD exam
 
 ## Get yourself a linux machine
