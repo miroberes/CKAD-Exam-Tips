@@ -1,0 +1,4 @@
+include:
+  - CKAD-Exam-Tips-general-tips
+  - CKAD-Exam-Tips-kubectl-exercises
+  - CKAD-Exam-Tips-vim-exercises
