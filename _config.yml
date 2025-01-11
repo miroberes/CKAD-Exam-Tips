@@ -1,4 +1,8 @@
+theme: minima
 include:
   - CKAD-Exam-Tips-general-tips
   - CKAD-Exam-Tips-kubectl-exercises
   - CKAD-Exam-Tips-vim-exercises
+plugins:
+  - jekyll-sitemap
+baseurl: "/CKAD-Exam-Tips"

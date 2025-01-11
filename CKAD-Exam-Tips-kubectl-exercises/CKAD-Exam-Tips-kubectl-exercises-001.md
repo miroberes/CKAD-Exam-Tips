@@ -1,10 +1,8 @@
 ---
-title: Getting Started with kubectl for CKAD exam
+title: kubectl for CKAD - exercise 1 - run a pod
 date: 2025-01-11
 ---
 ## Getting Started with kubectl for CKAD exam
-
-## kubectl for CKAD - exercise 1
 
 ### First things first
 Put your mouse away, forget you have a touchpad and **keep your hands on the keyboard**.
@@ -19,7 +17,7 @@ Yes, we can do kubectl apply, even kubectl replace right from inside Vim!
 Run a pod testpod, name the container nginx-container
 
 ### Open a free kubernetes cluster playground or use your own
-https://killercoda.com/playgrounds/scenario/kubernetes
+[https://killercoda.com/playgrounds/scenario/kubernetes](https://killercoda.com/playgrounds/scenario/kubernetes)
 
 ### Open a new yaml file directly in Vim
 ```bash

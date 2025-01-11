@@ -1,0 +1,19 @@
+---
+---
+
+@import "minima";
+
+.site-header {
+  border-top: none;
+  border-bottom: none;
+  min-height: auto;
+  position: static;
+}
+
+.wrapper {
+  max-width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}

@@ -6,8 +6,6 @@ Vim is great if we invest time to learn to use it. Editing Kubernetes YAML files
 
 ## Getting Started with Vim for CKAD exam
 
-## Vim for CKAD - exercise 1 - creating, editing, saving, and closing documents in Vim
-
 ### First things first
 Put your mouse away, forget you have a touchpad and **keep your hands on the keyboard**.
 
@@ -48,3 +46,5 @@ Vim ***q***uits, closing the edited document.
 
 ### Congratulations!
 Practice these steps to make creating, editing, saving, and closing YAML files in Vim second nature.
+
+Next: [Vim for CKAD - exercise 2 - append text, save as](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-vim-exercises/CKAD-Exam-Tips-vim-exercises-002-append-save-as.html)

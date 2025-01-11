@@ -2,11 +2,11 @@
 title: Vim for CKAD - exercise 3 - start writing
 date: 2025-01-11
 ---
+Previous: [Vim for CKAD - exercise 2 - append text, save as](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-vim-exercises/CKAD-Exam-Tips-vim-exercises-002-append-save-as.html)
+
 Vim is great if we invest time to learn to use it. Editing Kubernetes YAML files in Vim should be as natural as breathing.
 
 ## Getting Started with Vim for CKAD exam
-
-## Vim for CKAD - exercise 3 - start writing
 
 ### First things first
 Put your mouse away, forget you have a touchpad and **keep your hands on the keyboard**.
@@ -147,3 +147,5 @@ Vim ***q***uits, closing the edited document, discarding all changes.
 
 ### Congratulations!
 Practice these steps to make editing YAML files in Vim second nature.
+
+Next: [Vim for CKAD - exercise 4 - hide, show vim](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-vim-exercises/CKAD-Exam-Tips-vim-exercises-004-hide-show.html)
