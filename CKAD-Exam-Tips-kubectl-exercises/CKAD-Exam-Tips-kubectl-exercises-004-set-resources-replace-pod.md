@@ -15,7 +15,7 @@ The situation with the CKAD and other CK* exams is that we need to be ***fast***
 #### Scenario
 A pod named `resourcepod` is running in the cluster. We want to set resource requests and limits for this pod.
 
-Run the pod:
+#### Run the pod:
 ```bash
 kubectl run resourcepod --image nginx:alpine
 ```

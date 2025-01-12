@@ -15,7 +15,7 @@ The situation with the CKAD and other CK* exams is that we need to be ***fast***
 #### Scenario
 A pod named `colorpod` is running in the cluster. It has an environment variable `APP_COLOR=red`. We want to change the value of `APP_COLOR` to `green`.
 
-Run a pod with this command:
+#### Run a pod with this command:
 ```bash
 kubectl run colorpod --image nginx:alpine --env APP_COLOR=red
 ```
@@ -23,7 +23,8 @@ Output:
 ```
 pod/colorpod created
 ```
-To check the environment variables:
+
+#### To check the environment variables:
 ```bash
 kubectl set env pods colorpod --list
 ```
@@ -33,7 +34,7 @@ Output:
 APP_COLOR=red
 ```
 
-Attempting to directly set the environment variable like this throws an error:
+#### Attempting to directly set the environment variable like this throws an error:
 ```bash
 kubectl set env pods colorpod APP_COLOR=green
 ```

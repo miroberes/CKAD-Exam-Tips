@@ -6,6 +6,7 @@ It includes:
 
 - kubectl command tips for managing Kubernetes resources effectively
 - Vim tips to help you work with Kubernetes manifests
+- Bash tips
 
 Scenario testers are welcome, feel free to use the [Issues](https://github.com/miroberes/CKAD-Exam-Tips/issues) for communication.
 
