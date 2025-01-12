@@ -6,12 +6,12 @@ Previous: [Vim for CKAD - exercise 5 - hide vim, edit multiple files](https://mi
 
 Vim is great if we invest time to learn to use it. Editing Kubernetes YAML files in Vim should be as natural as breathing.
 
-## Getting Started with Vim for CKAD exam
+### Getting Started with Vim for CKAD exam
 
-### First things first
+#### First things first
 Put your mouse away, forget you have a touchpad and **keep your hands on the keyboard**.
 
-### Open a new file in Vim
+#### Open a new file in Vim
 ```bash
 vim vimisawesome.yaml
 ```
@@ -25,7 +25,7 @@ For proper yaml formatting, the indentation needs to be done with spaces. To see
 ```bash
 :set list
 ```
-### Copy a yaml from kubernetes.io - paste it into a Vim document
+#### Copy a yaml from kubernetes.io - paste it into a Vim document
 
 Open the networkpolicy.yaml file from:
 [https://kubernetes.io/docs/concepts/services-networking/network-policies/#networkpolicy-resource](https://kubernetes.io/docs/concepts/services-networking/network-policies/#networkpolicy-resource)
@@ -42,12 +42,12 @@ shift control v
 ```
 
 If the yaml looks good - meaning the indentation is done with spaces (NOT with multiple ```^I``` characters, which would now be visible)
-### ESCape from INSERT mode and ***w***rite (save) the document
+#### ESCape from INSERT mode and ***w***rite (save) the document
 ```bash
 ESC
 :w
 ```
-### Alternatively, use ***saveas*** to save the document under a new name
+#### Alternatively, use ***saveas*** to save the document under a new name
 ```bash
 :saveas newfilename.yaml
 ```
@@ -58,5 +58,5 @@ The last but very important step is to reset the **paste** mode back to **nopast
 :set nopaste 
 ```
 
-### Congratulations!
+#### Congratulations!
 Practice these steps to make editing documents in Vim second nature, copying yaml text from a browser and pasting it into Vim documents without loosing the proper indentation.
