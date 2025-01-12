@@ -3,9 +3,12 @@
 
   <div class="wrapper">
     <ul>
+      <li>
+        <a href="/CKAD-Exam-Tips/">Home - CKAD Exam Tips</a>
+      </li>
     {% for page in site.pages %}
-      {% unless page.path contains 'assets/main' or page.path contains 'feed.xml' or page.path contains 'sitemap.xml' or page.path contains 'robots.txt' or page.path contains 'README.md' %}
-        <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title | default: page.path }}</a></li>
+      {% unless page.path contains 'assets/main' or page.path contains 'feed.xml' or page.path contains 'sitemap.xml' or page.path contains 'robots.txt' or page.path contains 'README.md' or page.path contains 'index' %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title | default: page.path }}</a></li>
       {% endunless %}
     {% endfor %}
     <br />
