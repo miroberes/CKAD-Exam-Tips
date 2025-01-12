@@ -27,7 +27,7 @@ error: the server doesn't have a resource type "p"
 
 Since there is only one typo to be corrected use the bash quick substitution syntax. W need to add the `get` word to the string to be replaced to make the 'p' unique.
 
-Re-run the previous command but replace `get p` with `get po`:
+#### Re-run the previous command but replace `get p` with `get po`:
 ```bash
 ^get p^get po
 ```
@@ -51,7 +51,7 @@ pod/redpod created
 Since now there are multiple words to be replaced in the previous command, we can not use the `^old^new` syntax, because it only replaces a single word.
 But we still can reuse the previous command with bash global substitution (gs).
 
-#### This replaces every instance of `red` with `green` in the last command:
+#### Re-run the previous command but replace every instance of `red` with `green`:
 ```bash
 !!:gs/red/green
 ```
