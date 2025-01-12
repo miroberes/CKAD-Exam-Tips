@@ -13,14 +13,14 @@ The situation with the CKAD and other CK* exams is that we need to be ***fast***
 
 ### Scenario
 A pod named `multipod` needs to be created in the cluster with two containers:  
-- `nginx-container` using the image `nginx:alpine`  
+- `multipod` using the image `nginx:alpine` - name assigned automatically
 - `busybox-container` using the image `busybox:latest`  
 
 We will generate the pod manifest on the fly and edit it in Vim for quick application. Since `kubectl run` allows only one --image flag to be used, we will combine it with`sed`.
 #### Use `kubectl run` and `sed` to create a multi-container pod manifest
 ```bash
 kubectl run multipod --image nginx:alpine --dry-run=client -o yaml \
-  | sed "/containers:/a\  - name: busybox-container\n    image: busybox:latest" | vim -
+ | sed "/containers:/a\  - image: busybox:latest\n    name: busybox-container\n    command: ['sh','-c','sleep 3600']" | vim -
 ```
 
 1. `kubectl run` generates the basic YAML manifest for a pod with one container (`nginx:alpine`), the pipe `|` passes the YAML to `sed`
@@ -63,3 +63,5 @@ Vim ***q***uits, closing the edited pod manifest.
 
 #### Congratulations!  
 You've learned to generate a multi-container pod on the fly using `kubectl`, `sed`, and `Vim`. Practice often to master fast YAML generation and direct editing for the CKAD exam.
+
+Next: [kubectl for CKAD - exercise 6 - set env to a multi-container pod](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-kubectl-exercises/CKAD-Exam-Tips-kubectl-exercises-006-set-env-multi-pod.html)
