@@ -11,7 +11,7 @@ Put your mouse away, forget you have a touchpad and **keep your hands on the key
 
 The situation with the CKAD and other CK* exams is that we need to be ***fast***.
 To key be fast when editing yaml files and applying them with kubectl apply is - ***don't leave Vim***.
-Yes, we can do kubectl apply, even kubectl replace right from inside Vim!
+Yes, we can run `kubectl apply`, even `kubectl replace` right from inside Vim!
 
 ### A possible CKAD exam scenario
 Run a pod testpod, name the container nginx-container
@@ -45,7 +45,7 @@ ESC              // 'ESC'ape from INSERT mode
 ```
 
 ### Watch the magic...
-#### run kubectl apply directly from inside Vim
+#### run `kubectl apply` directly from inside Vim
 ```bash
 :!kubectl apply -f %   // % references the file name
 ```
@@ -61,7 +61,7 @@ ESC         // 'ESC'ape from INSERT mode
 :w          // 'w'rite (save) the document
 ```
 
-#### Repeat running kubectl apply directly from Vim using the previous command
+#### Repeat running `kubectl apply` directly from Vim re-using the previous command
 ```bash
 :up arrow    // repeat to find the command :!kubectl apply -f %
 Enter

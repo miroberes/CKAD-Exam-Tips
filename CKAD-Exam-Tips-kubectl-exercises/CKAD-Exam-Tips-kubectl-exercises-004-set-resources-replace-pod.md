@@ -86,3 +86,5 @@ Vim ***q***uits, closing the edited YAML file.
 
 #### Congratulations!
 Practice these steps to master setting resource requests and limits and replacing pods directly from Vim with kubectl.
+
+Next: [kubectl for CKAD - exercise 5 - run a multi-container pod](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-kubectl-exercises/CKAD-Exam-Tips-kubectl-exercises-005-run-multi-container-pod.html)

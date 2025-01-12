@@ -12,7 +12,7 @@ Put your mouse away, forget you have a touchpad and **keep your hands on the key
 
 The situation with the CKAD and other CK* exams is that we need to be ***fast***.
 To key be fast when editing yaml files and applying them with kubectl apply means - ***don't leave Vim***.
-Yes, we can do `kubectl apply`, even `kubectl replace` right from inside Vim!
+Yes, we can run `kubectl apply`, even `kubectl replace` right from inside Vim!
 
 ### Scenario
 A pod testpod is running in the cluster. We want to change some value in the pod, for example the pod name 'testpod' to 'nginx'.

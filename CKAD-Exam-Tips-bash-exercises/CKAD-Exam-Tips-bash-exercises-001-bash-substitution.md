@@ -1,5 +1,5 @@
 ---
-title: Bash for CKAD - exercise 1 - fixing typos in bash commands
+title: Bash for CKAD - exercise 1 - bash substitution
 date: 2025-01-12
 ---
 
