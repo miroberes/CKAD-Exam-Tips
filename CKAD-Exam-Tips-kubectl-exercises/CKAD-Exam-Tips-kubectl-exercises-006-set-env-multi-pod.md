@@ -17,7 +17,7 @@ A pod named `multipod` is running in the cluster with two containers named: `mul
 If you don't have the pod `multipod` running in your cluster from the previous exercise: [kubectl for CKAD - exercise 5 - run a multi-container pod](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-kubectl-exercises/CKAD-Exam-Tips-kubectl-exercises-005-run-multi-container-pod.html)
 
 #### Attempting to directly set the environment variable for a specific container throws an error:
-```bash
+```
 kubectl set env pod/multipod APP_MODE=production --containers=busybox-container
 ```
 Output:
@@ -35,12 +35,12 @@ kubectl set env pod/multipod APP_MODE=production --containers=busybox-container 
 Vim opens the YAML file. Ensure the `APP_MODE=production` variable is added under the correct container (`busybox-container`).
 
 #### Save the document as a new file (for example, `new-multipod.yaml`)
-```bash
+```
 :w new-multipod.yaml
 ```
 
 #### Replace the running pod with the updated definition directly from Vim
-```bash
+```
 :!kubectl replace -f % --force --grace-period 0
 ```
 

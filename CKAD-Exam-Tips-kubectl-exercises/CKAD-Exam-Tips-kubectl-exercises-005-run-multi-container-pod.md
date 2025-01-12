@@ -18,7 +18,7 @@ A pod named `multipod` needs to be created in the cluster with two containers:
 
 We will generate the pod manifest on the fly and edit it in Vim for quick application. Since `kubectl run` allows only one --image flag to be used, we will combine it with`sed`.
 #### Use `kubectl run` and `sed` to create a multi-container pod manifest
-```bash
+```
 kubectl run multipod --image nginx:alpine --dry-run=client -o yaml \
  | sed "/containers:/a\  - image: busybox:latest\n    name: busybox-container\n    command: ['sh','-c','sleep 3600']" | vim -
 ```
@@ -28,12 +28,12 @@ kubectl run multipod --image nginx:alpine --dry-run=client -o yaml \
 3. `vim -` opens the output for editing and further customization
 
 #### Check if the indentation is correct and save the YAML manifest
-```bash
+```
 :w multipod.yaml
 ```
 
 #### Run `kubectl apply` directly from inside Vim
-```bash
+```
 :!kubectl apply -f %   # % references the current file name
 ```
 
@@ -43,20 +43,20 @@ If everything is fine with the yaml file, multipod.yaml gets applied, pod multip
 If there is an error and **the pod has not been created**, read the error, then simply press Enter to edit the yaml file and correct the error.
 
 #### ***w***rite (save) the document
-```bash
+```
 ESC         // 'ESC'ape from INSERT mode 
 :w          // 'w'rite (save) the document
 ```
 
 #### Repeat running `kubectl apply` directly from Vim re-using the previous command
-```bash
+```
 :up arrow    // repeat to find the command :!kubectl apply -f %
 Enter
 ```
 If the error is fixed in the yaml file, multipod.yaml gets applied, pod multipod is created.
 
 #### Close the document / ***q***uit Vim
-```bash
+```
 :q
 ```
 Vim ***q***uits, closing the edited pod manifest.

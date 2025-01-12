@@ -16,7 +16,7 @@ Mistakes happen, but in the CKAD exam, correcting them quickly is key. Instead o
 Correct a typo in a Kubernetes command
 
 #### Get pod with this command:
-```bash
+```
 kubectl get p --namespace default -o wide --show-labels
 ```
 
@@ -28,19 +28,19 @@ error: the server doesn't have a resource type "p"
 Since there is only one typo to be corrected use the bash quick substitution syntax. W need to add the `get` word to the string to be replaced to make the 'p' unique.
 
 #### Re-run the previous command but replace `get p` with `get po`:
-```bash
+```
 ^get p^get po
 ```
 
 Output:
-```bash
+```
 kubectl get po --namespace default -o wide --show-labels
 ```
 
 ### Scenario 2:
 
 Run two pods, redpod with APP_COLOR=red and greenpod with APP_COLOR=green
-```bash
+```
 kubectl run redpod --image nginx:alpine --env APP_COLOR=red
 ```
 Output:
@@ -52,12 +52,12 @@ Since now there are multiple words to be replaced in the previous command, we ca
 But we still can reuse the previous command with bash global substitution (gs).
 
 #### Re-run the previous command but replace every instance of `red` with `green`:
-```bash
+```
 !!:gs/red/green
 ```
 
 Output:
-```bash
+```
 kubectl run greenpod --image nginx:alpine --env APP_COLOR=green
 pod/greenpod created
 ```

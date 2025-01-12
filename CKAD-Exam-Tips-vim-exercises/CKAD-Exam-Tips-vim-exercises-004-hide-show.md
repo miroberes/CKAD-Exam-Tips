@@ -12,7 +12,7 @@ Vim is great if we invest time to learn to use it. Editing Kubernetes YAML files
 Put your mouse away, forget you have a touchpad and **keep your hands on the keyboard**.
 
 #### Open a new file in Vim
-```bash
+```
 vim vimisawesome.yaml
 ```
 If the file vimisawesome.yaml does not exist, Vim opens a new file.
@@ -22,17 +22,17 @@ If you viewed some resource in the terminal and need to see the output again, bu
 
 Put vim to sleep, ***z***zzz...
 
-```bash
+```
 control z
 ```
 
 The output in the terminal shows that Vim is stopped:
-```bash
+```
 [1]+  Stopped                 vim vimisawesome.yaml
 ```
 #### Bring vim to ***f***ore***g***round
 
-```bash
+```
 fg
 ```
 
