@@ -14,7 +14,7 @@ The situation with the CKAD and other CK* exams is that we need to be ***fast***
 To key be fast when editing yaml files and applying them with kubectl apply means - ***don't leave Vim***.
 Yes, we can do `kubectl apply`, even `kubectl replace` right from inside Vim!
 
-#### Scenario
+### Scenario
 A pod testpod is running in the cluster. We want to change some value in the pod, for example the pod name 'testpod' to 'nginx'.
 Most fields in a pod manifest can't be changed for a running pod, but we still can use the kubectl edit command and then replace the pod.
 #### Start editing pod testpod in Vim
@@ -48,7 +48,7 @@ If we would quit Vim now, the pod would not get updated. We need to replace the 
 :!kubectl replace -f % --force --grace-period 0
 ```
 
-#### Scenario continued
+### Scenario continued
 If there is an error and **the pod has not been replaced**, read the error, then simply press Enter to edit the yaml file and correct the error.
 
 #### ***w***rite (save) the document

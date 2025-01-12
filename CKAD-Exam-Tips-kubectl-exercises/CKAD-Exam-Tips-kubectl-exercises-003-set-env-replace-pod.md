@@ -12,7 +12,7 @@ Put your mouse away, forget you have a touchpad and **keep your hands on the key
 
 The situation with the CKAD and other CK* exams is that we need to be ***fast***. To be fast when editing YAML files and applying them with kubectl apply means - ***don't leave Vim***. Yes, we can use `kubectl replace` right from inside Vim!
 
-#### Scenario
+### Scenario
 A pod named `colorpod` is running in the cluster. It has an environment variable `APP_COLOR=red`. We want to change the value of `APP_COLOR` to `green`.
 
 #### Run a pod with this command:

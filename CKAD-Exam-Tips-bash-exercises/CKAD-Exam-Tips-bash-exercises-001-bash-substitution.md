@@ -11,7 +11,7 @@ Put your mouse away, forget you have a touchpad and **keep your hands on the key
 #### Be fast when fixing typos in Bash commands
 Mistakes happen, but in the CKAD exam, correcting them quickly is key. Instead of retyping the entire command or awkwardly navigating with arrow keys, use Bash quick substitution syntax to fix typos.
 
-#### Scenario 1:
+#### A possible CKAD exam scenario 1:
 
 Correct a typo in a Kubernetes command
 
@@ -37,7 +37,7 @@ Output:
 kubectl get po --namespace default -o wide --show-labels
 ```
 
-#### Scenario 2:
+### Scenario 2:
 
 Run two pods, redpod with APP_COLOR=red and greenpod with APP_COLOR=green
 ```bash
@@ -63,4 +63,3 @@ pod/greenpod created
 ```
 #### Congratulations!
 Master these Bash substitution techniques to correct typos and reuse commands instantly without breaking your flow during the CKAD exam.
-

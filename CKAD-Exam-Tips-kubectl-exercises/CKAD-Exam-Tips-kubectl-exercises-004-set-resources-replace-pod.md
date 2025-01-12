@@ -12,7 +12,7 @@ Put your mouse away, forget you have a touchpad and **keep your hands on the key
 
 The situation with the CKAD and other CK* exams is that we need to be ***fast***. To be fast when editing YAML files and applying them with kubectl apply means - ***don't leave Vim***. Yes, we can run `kubectl replace` right from inside Vim!
 
-#### Scenario
+### Scenario
 A pod named `resourcepod` is running in the cluster. We want to set resource requests and limits for this pod.
 
 #### Run the pod:
@@ -86,4 +86,3 @@ Vim ***q***uits, closing the edited YAML file.
 
 #### Congratulations!
 Practice these steps to master setting resource requests and limits and replacing pods directly from Vim with kubectl.
-

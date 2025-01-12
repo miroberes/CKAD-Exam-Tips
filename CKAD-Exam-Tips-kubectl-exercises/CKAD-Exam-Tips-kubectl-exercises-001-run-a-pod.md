@@ -13,7 +13,7 @@ The situation with the CKAD and other CK* exams is that we need to be ***fast***
 To key be fast when editing yaml files and applying them with kubectl apply is - ***don't leave Vim***.
 Yes, we can do kubectl apply, even kubectl replace right from inside Vim!
 
-#### A possible CKAD exam scenario
+### A possible CKAD exam scenario
 Run a pod testpod, name the container nginx-container
 
 #### Open a free kubernetes cluster playground or use your own
@@ -52,7 +52,7 @@ ESC              // 'ESC'ape from INSERT mode
 
 If everything is fine with the yaml file, testpod.yaml gets applied, pod is created.
 
-#### Scenario continued
+### Scenario continued
 If there is an error and **the pod has not been created**, read the error, then simply press Enter to edit the yaml file and correct the error.
 
 #### ***w***rite (save) the document
