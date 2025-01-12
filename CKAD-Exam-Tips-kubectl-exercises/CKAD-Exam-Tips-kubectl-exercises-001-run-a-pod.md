@@ -47,7 +47,7 @@ ESC              // 'ESC'ape from INSERT mode
 ### Watch the magic...
 #### run `kubectl apply` directly from inside Vim
 ```
-:!kubectl apply -f %   // % references the file name
+:!kubectl apply -f %   # % references the current file name
 ```
 
 If everything is fine with the yaml file, testpod.yaml gets applied, pod is created.

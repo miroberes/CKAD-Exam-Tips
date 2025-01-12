@@ -45,7 +45,7 @@ If we would quit Vim now, the pod would not get updated. We need to replace the 
 ### Watch the magic... again
 #### run `kubectl replace` directly from inside Vim - delete the pod and create a new one
 ```
-:!kubectl replace -f % --force --grace-period 0
+:!kubectl replace -f % --force --grace-period 0     # % references the current file name
 ```
 
 ### Scenario continued

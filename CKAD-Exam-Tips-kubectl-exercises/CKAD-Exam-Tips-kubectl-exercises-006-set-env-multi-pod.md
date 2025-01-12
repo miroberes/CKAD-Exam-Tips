@@ -64,3 +64,5 @@ APP_MODE=production
 
 #### Congratulations!
 Practice these steps to master setting container-specific environment variables in multi-container pods with kubectl and Vim.
+
+Next: [kubectl for CKAD - exercise 7 - use bash exported variable in Vim](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-kubectl-exercises/CKAD-Exam-Tips-kubectl-exercises-007-use-bash-variables.html)
