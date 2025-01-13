@@ -1,6 +1,6 @@
 #### CKAD Exam Tips
 
-The **CKAD Exam Tips** repository contains a collection of tips to help you manage resources in a Kubernetes cluster using essential tools like kubectl and Vim, and prepare for the Certified Kubernetes Application Developer (CKAD) exam, as well as other CK* series exams, such as CKA and CKS.
+The **CKAD Exam Tips** repository (rendered as GitHub Pages [here](https://miroberes.github.io/CKAD-Exam-Tips/)) contains a collection of tips to help you prepare for the CKAD exam (Certified Kubernetes Application Developer) as well as other CK* series exams, such as CKA and CKS.
 
 It includes:
 
