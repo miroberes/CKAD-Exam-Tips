@@ -25,7 +25,7 @@ Error:
 error: the server doesn't have a resource type "p"
 ```
 
-Since there is only one typo to be corrected use the bash quick substitution syntax. W need to add the `get` word to the string to be replaced to make the 'p' unique.
+Since there is only one typo to be corrected we can use the bash quick substitution syntax: `^oldstring^newstring`. To tell the substitution which `p` it should replace with `po` we need to add the `get` word to the string.
 
 #### Re-run the previous command but replace `get p` with `get po`:
 ```
