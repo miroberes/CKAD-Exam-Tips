@@ -26,13 +26,15 @@ ESC              # 'ESC'ape from INSERT mode
 :w               # 'w'rite (save) the document
 :q               # 'q'uit Vim
 ```
-#### Reload your .bashrc
+#### ***source*** (reload) your .bashrc
 ```
 source ~/.bashrc
 ```
-#### Open a new yaml file directly in Vim using the shortcuts
+#### Open a new yaml file directly in Vim using the alias `k` (without `$`) and the exported bash variable `dry` (with `$`)
 ```
 k run shortpod --image=nginx:alpine $dry --command -- bin/sh -c "echo test;sleep 100" | vim -
 ```
 #### Congratulations!
 You've learned how to use command expansion with bash variables to make your kubectl commands more efficient. This will save you valuable time during the CKAD exam.
+
+Next: [kubectl for CKAD - exercise 9 - expose a pod with NodePort service, delete lines in Vim](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-kubectl-exercises/CKAD-Exam-Tips-kubectl-exercises-009-expose-nodeport-delete-lines.html)

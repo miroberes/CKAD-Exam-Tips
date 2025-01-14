@@ -24,21 +24,21 @@ kubectl edit po testpod
 
 #### Look up the name value (testpod), then jump right to it by searching in Vim from the top
 ```
-/testp     // search down from the top, no need to write the whole word
+/testp     # search down from the top, no need to write the whole word
 Enter
-n          // repeat search downwards as needed
+n          # repeat search downwards as needed
 ```
 
 #### Replace the name value - type it or copy & paste it from the task description
 ```
-C          // 'C'lear (delete) everything from the cursor to the end of this line and start writing
+C          # 'C'lear (delete) everything from the cursor to the end of this line and start writing
 nginx
 ```
 
 #### ***w***rite (save) the document to persist changes
 ```
-ESC         // 'ESC'ape from INSERT mode 
-:w          // 'w'rite (save) the document, file name is provided by kubectl edit
+ESC         # 'ESC'ape from INSERT mode 
+:w          # 'w'rite (save) the document, file name is provided by kubectl edit
 ```
 
 If we would quit Vim now, the pod would not get updated. We need to replace the edited pod with a new one - and we need to do it as fast as possible.
@@ -48,22 +48,30 @@ If we would quit Vim now, the pod would not get updated. We need to replace the 
 :!kubectl replace -f % --force --grace-period 0     # % references the current file name
 ```
 
+#### If everything is fine with the yaml file, pod is deleted and a new pod is created
+```
+k get pods -o wide   # view pods, -o wide is optional, it shows more info about resources
+```
+
 ### Scenario continued
 If there is an error and **the pod has not been replaced**, read the error, then simply press Enter to edit the yaml file and correct the error.
 
 #### ***w***rite (save) the document
 ```
-ESC         // 'ESC'ape from INSERT mode 
-:w          // 'w'rite (save) the document
+ESC         # 'ESC'ape from INSERT mode 
+:w          # 'w'rite (save) the document
 ```
 
 #### Repeat replacing the pod directly from Vim using the previous command
 ```
-:up arrow    // repeat to find the command :!kubectl replace -f % --force --grace-period 0
+:up arrow    # repeat to find the command :!kubectl replace -f % --force --grace-period 0
 Enter
 ```
 
-If everything is fine with the edited pod file, pod is deleted and a new pod is created.
+#### If everything is fine with the yaml file, pod is replaced
+```
+k get pods -o wide   # view pods, -o wide is optional, it shows more info about resources
+```
 
 #### Close the document / ***q***uit Vim
 ```

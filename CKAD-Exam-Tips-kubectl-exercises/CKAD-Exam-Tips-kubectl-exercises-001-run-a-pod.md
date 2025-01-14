@@ -50,7 +50,10 @@ ESC              // 'ESC'ape from INSERT mode
 :!kubectl apply -f %   # % references the current file name
 ```
 
-If everything is fine with the yaml file, testpod.yaml gets applied, pod is created.
+#### If everything is fine with the yaml file, testpod.yaml gets applied, pod is created.
+```
+k get pods -o wide   # view pods, -o wide is optional, it shows more info about resources
+```
 
 ### Scenario continued
 If there is an error and **the pod has not been created**, read the error, then simply press Enter to edit the yaml file and correct the error.
@@ -72,6 +75,11 @@ If the error is fixed in the yaml file, testpod.yaml gets applied, pod is create
 ```
 ESC         // 'ESC'ape from INSERT mode 
 :w          // 'w'rite (save) the document, file name is provided by kubectl edit
+```
+
+#### If everything is fine with the yaml file, testpod.yaml gets applied, pod is created.
+```
+k get pods -o wide   # view pods, -o wide is optional, it shows more info about resources
 ```
 
 #### Close the document / ***q***uit Vim
