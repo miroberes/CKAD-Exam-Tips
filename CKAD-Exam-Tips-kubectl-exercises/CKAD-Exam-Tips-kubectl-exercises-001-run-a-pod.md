@@ -29,7 +29,7 @@ kubectl run testpod --image nginx:alpine --dry-run=client -o yaml | vim -
 G         // jump down to the last line
 ?testpod  // search upwards from the bottom to top
 Enter
-N         // 'N'ew search - repeat search upwards as needed
+n         // 'n'ew search - repeat search upwards as needed
 ```
 
 #### Replace the container name with nginx-container - type it or copy & paste it from the task description

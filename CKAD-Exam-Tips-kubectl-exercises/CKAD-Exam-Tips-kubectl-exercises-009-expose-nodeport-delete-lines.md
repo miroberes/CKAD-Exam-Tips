@@ -220,3 +220,5 @@ source ~/.bashrc
 ```
 #### Congratulations!
 You have learned how to  use `--dry-run=server` to expose a pod with a NodePort service and how to delete unwanted lines in YAML definitions using fast navigation by line numbers. Practice, practice, practice...
+
+Next: [kubectl for CKAD - exercise 10 - copy from browser, paste into Vim, indent](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-kubectl-exercises/CKAD-Exam-Tips-kubectl-exercises-010-copy-from-browser-to-vim-indent.html)

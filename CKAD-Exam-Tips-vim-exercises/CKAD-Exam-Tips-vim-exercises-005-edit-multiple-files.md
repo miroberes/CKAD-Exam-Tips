@@ -66,4 +66,4 @@ fg 2
 #### Congratulations!
 Practice these steps to make editing multiple documents in Vim second nature, hiding it and bringing it back instead of closing it and opening again.
 
-Next: [Vim for CKAD - exercise 6 - copy from browser, paste into Vim](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-vim-exercises/CKAD-Exam-Tips-vim-exercises-006-copy-paste.html)
+Next: [Vim for CKAD - exercise 6 - copy from browser, paste into Vim](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-vim-exercises/CKAD-Exam-Tips-vim-exercises-006-copy-paste-in-vim.html)

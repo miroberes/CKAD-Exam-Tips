@@ -21,7 +21,7 @@ To keep the yaml properly formatted after pasting it into Vim, we need to set Vi
 :set paste
 ```
 
-For proper yaml formatting, the indentation needs to be done with spaces. To see if yaml is not accidentally indented using tabulators, make tabulators visible :
+For correct yaml formatting, the indentation needs to be done with spaces. To see if yaml is not accidentally indented using tabs (```^I``` ), make tabs visible :
 ```
 :set list
 ```

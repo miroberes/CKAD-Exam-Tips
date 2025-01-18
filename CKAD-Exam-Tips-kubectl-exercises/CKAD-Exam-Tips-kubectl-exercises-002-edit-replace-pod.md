@@ -24,7 +24,7 @@ kubectl edit po testpod
 
 #### Look up the name value (testpod), then jump right to it by searching in Vim from the top
 ```
-/testp     # search down from the top, no need to write the whole word
+/testp     # search downwards from the top, no need to write the whole word
 Enter
 n          # repeat search downwards as needed
 ```
