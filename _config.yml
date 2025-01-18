@@ -7,3 +7,4 @@ include:
 plugins:
   - jekyll-sitemap
 baseurl: "/CKAD-Exam-Tips"
+google_analytics: G-4N169C6V9C
