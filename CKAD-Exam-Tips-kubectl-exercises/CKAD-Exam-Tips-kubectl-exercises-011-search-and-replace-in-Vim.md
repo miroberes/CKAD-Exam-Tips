@@ -130,7 +130,7 @@ ESC                    # 'ESC'ape from INSERT mode
 :w testdep.yaml        # 'w'rite (save) the document
 ```
 
-### Replace the running deployment, to check if the yaml is correct - directly from inside Vim
+### Replace the running deployment, to check if the yaml is correct - directly from inside Vim  {#replace-deployment}
 
 If you have already set up the bash variables / shortcuts `kr` and `$f0` in the previous exercises use it like this
 ```
@@ -161,7 +161,9 @@ ESC                    # 'ESC'ape from INSERT mode
 :w testdep.yaml        # 'w'rite (save) the document
 ```
 
-[[#Replace the running deployment, to check if the yaml is correct - directly from inside Vim]]
+[Replace the running deployment, to check if the yaml is correct - directly from inside Vim](#replace-deployment)
+
+
 ### Scenario 4: Search and replace only part of a line
 
 Sometimes, you only want to replace part of a line, for example, only the value after a key.
@@ -219,7 +221,7 @@ ESC                    # 'ESC'ape from INSERT mode
 :w testdep.yaml        # 'w'rite (save) the document
 ```
 
-[[#Replace the running deployment, to check if the yaml is correct - directly from inside Vim]]
+[Replace the running deployment, to check if the yaml is correct - directly from inside Vim](#replace-deployment)
 
 ### Congratulations!
 You've now learned how to perform basic and more advanced search and replace operations in Vim. Practice these techniques to become more efficient at editing YAML manifests and other text files.
