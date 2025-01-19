@@ -1,6 +1,6 @@
 ---
 title: kubectl for CKAD - exercise 10 - copy from browser, paste into Vim, indent
-date: 2025-01-11
+date: 2025-01-18
 ---
 Previous: [kubectl for CKAD - exercise 9 - expose a pod with NodePort service, delete lines in Vim](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-kubectl-exercises/CKAD-Exam-Tips-kubectl-exercises-009-expose-nodeport-delete-lines.html)
 #### First things first
@@ -19,7 +19,7 @@ kubectl create deploy testdep --image nginx:alpine --dry-run=client -o yaml | vi
 Use the alias k and the bash variable $dry if you have already created them in your .bashrc file. ([kubectl for CKAD - exercise 8 - use bash exported variables in Vim 2](https://miroberes.github.io/CKAD-Exam-Tips/CKAD-Exam-Tips-kubectl-exercises/CKAD-Exam-Tips-kubectl-exercises-008-use-bash-variables2.html))
 
 #### Output in Vim:
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
